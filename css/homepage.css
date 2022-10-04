@@ -1,0 +1,185 @@
+body{
+    background-image: url(../background.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100%;
+    position: relative;
+}
+
+.home_mid{
+    margin-top: 7%;
+    margin-left: 15%;
+    display: flex;
+}
+
+.home_content{
+    display: flex;
+}
+
+.home_content p{
+    font-size: 90px;
+}
+
+.home_content span{
+    font-size: 50px;
+    margin-left: 200px;
+    margin-right: 150px;
+}
+
+/* .home_content .caption .desc1{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 1px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.home_content .caption .desc2{
+    margin-top: 1px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: black;
+    letter-spacing: 3px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.home_content .caption .desc3{   
+    font-size: 22px;
+    max-width: 26cm;
+    color: black;
+    text-align: justify;
+    font-family: 'IBM Plex Sans', sans-serif;
+} */
+
+.sosmed{
+    margin-right: 2%;
+    float: right;
+    margin-top: -15%;
+    opacity: 0;
+    visibility: hidden;  
+    transform: rotateY(-90deg) translateX(-300px);   
+    transition: all 800ms cubic-bezier(.9, 0, .33, 1);
+}
+
+.facebook{
+    margin-bottom: 25%;
+    margin-left: 30%;
+}
+
+.about{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.instagram{
+    margin-top: 50%;
+    margin-left: 45%;
+}
+
+.sidebar{
+    width: 60px;
+    height: 100px;
+    display: block;
+    padding-right: 40px;
+    position: absolute;
+    top: 35%;
+    left: 95.2%;
+    background: white;
+    border-radius: 50% 0% 0% 50%;
+    perspective: 800;
+    transition: all 800ms cubic-bezier(.9, 0, .33, 1);
+}
+
+.nav_icon{
+    width: 55px;
+    height: 44px;
+    display: block;
+    position: relative;
+    top: 30%;
+    left: 38%;
+    background: hsla(312, 51%, 41%, 0.0);
+    cursor: pointer;
+    transition: all 800ms cubic-bezier(.9, 0, .33, 1);
+}
+.nav_icon .topBar {
+    width: 55px;
+    height: 2px;
+    display: block;
+    background: black;
+    position: absolute;
+    top: 10px;   
+    transform: rotate(0);   
+    transition: all 800ms cubic-bezier(.9, 0, .33, 1);
+  }
+.nav_icon .midBar {
+    width: 55px;
+    height: 2px;
+    display: block;
+    background: black;
+    position: absolute;
+    top: 20px;   
+    transform: rotate(0);
+    transition: all 800ms cubic-bezier(.9, 0, .33, 1);
+}
+.nav_icon .botBar {
+    width: 35px;
+    height: 2px;
+    display: block;
+    background: black;
+    position: absolute;
+    top: 30px;
+    left: 20px;  
+    transform: rotate(0);   
+    transition: all 800ms cubic-bezier(.9, 0, .33, 1);
+}
+
+.navigation-open{
+    width: 150px;
+    height: 300px;
+    display: block;
+    background: #FFF;
+    position: absolute;
+    left: 90%;
+    border-radius: 50% 0% 0% 50%;
+}
+
+.navigation-open .nav_icon{
+    left: 30%;
+}
+
+.navigation-open .sosmed {
+    opacity: 1;
+    visibility: visible;
+}
+
+.navigation-open .topBar {
+    top: 55px;   
+    right: 120px;
+    transform: rotate(45deg);
+}
+  
+.navigation-open .midBar {
+    width: 0;
+    top: 22px;
+    opacity: 0;
+    visibility: hidden; 
+    transform: translateX(30px);
+}
+  
+.navigation-open .botBar {
+    width: 55px;
+    top: 55px;   
+    transform: rotate(-45deg);
+    left: -120px;
+}
+
+.navigation-open .sosmed{
+    transform: rotateY(0) translateX(0);
+}
+

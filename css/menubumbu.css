@@ -1,0 +1,373 @@
+body{
+  font-family: sans-serif;
+  background-image: url(../background2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 35%;
+}
+.top{
+  display: flex;
+}
+.buttom{
+  display: flex;
+}
+
+.logo{
+	margin-top: -150px;
+	margin-left: 40px;
+ 
+ }
+
+.page_title{
+  font-size: 40px;
+  margin-left: 10%;
+  font-weight: bolder;
+}
+
+hr.title_line{
+  border: none;
+  height: 2px;
+  width: 28%;
+  background: black;
+  margin-top: -30px;
+  margin-left: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.content_bumbu {
+    background-color: #fefefe;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    width: 1500px;
+    margin-left: 10%;
+}
+  
+  .float_right {
+    float: right;
+  }
+  
+  .subtle {
+    color: black;
+    font-size: 20px;
+  }
+  
+  .card {
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .12);
+    height: 125px;
+    margin-bottom: 25px;
+    transition: all 300ms ease-out;
+    width: 100%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 5px 14px rgba(0, 0, 0, .2);
+  }
+  
+  .object {
+    background: none;
+    float: left;
+    height: 100%;
+    width: 35%;
+    position: relative;
+  }
+  
+  .image {
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+  }
+  
+  .image:after {
+    content: " ";
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 300ms ease-out;
+    z-index: 10;
+  }
+  
+  .card:hover .image:after {
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 52%, rgba(0,0,0,0.4) 100%);
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 52%,rgba(0,0,0,0.4) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 52%,rgba(0,0,0,0.4) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+    opacity: 1;
+  }
+  
+  .tag {
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 2px 7px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  
+  .card_body {
+    background-color: #fff;
+    float: left;
+    height: 100%;
+    padding: 12px 15px;
+    position: relative;
+    width: 65%;
+  }
+  
+  .card_body_top {
+    display: block;
+  }
+  
+  .top_icons {
+    margin-top: -2px;
+    opacity: 0;
+    transition: all 300ms ease-out;
+    transform: translateY(-5px);
+  }
+  
+  .card:hover .top_icons {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .top_icons > svg {
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all 300ms ease-out;
+  }
+  
+  .top_icons > svg:hover {
+    fill: #444;
+  }
+  
+  .card_title {
+    color: #888;
+    display: block;
+    margin-top: 8px;
+    font-size: 13px;
+  }
+  
+  .support {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    opacity: 1;
+    padding: 0 15px;
+    transition: all 300ms ease-out;
+    width: 100%;
+  }
+  
+  .card:hover .support {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  
+  .support_text {
+    display: inline-block;
+    font-size: 10px;
+  }
+  
+  .support_reveal {
+    opacity: 0;
+    transform: translateY(8px);
+    transition: all 300ms ease-out;
+  }
+  
+  .card:hover .support_reveal {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .add_cart {
+    color: #41C1F2;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+/* ----------------------------------------------------- */
+
+.line{
+  display: flex;
+}
+
+.row_1{
+  margin-right: 30px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+body{
+    font-family: sans-serif;
+}
+.top_bumbu{
+    display: flex;
+}
+.buttom_bumbu{
+    display: flex;
+}
+
+
+.page_title{
+    font-size: 40px;
+    margin-left: 10%;
+    margin-top: -50px;
+    font-weight: bolder;
+}
+
+hr.title_line{
+    border: none;
+    height: 2px;
+    width: 28%;
+    background: black;
+    margin-top: -30px;
+    margin-left: 0;
+}
+
+.bumbu_rendang{
+    margin-left: 155px;
+}
+
+.heading1Bumbu h2{
+    font-weight: 550;
+    font-size: 30px;
+    margin-left: 205px;
+    margin-top: 5px;
+}
+
+.heading1Bumbu p{
+    font-weight: 520;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 350px;
+}
+
+.heading1Bumbu button {
+    color: orange;
+    margin-left: 198px;
+    font-size: 25px;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 14px;
+  }
+  
+.heading1Bumbu button:hover {
+    background: #ff9800;
+    color: white;
+  }
+
+
+
+/* HEADING 2 */
+
+
+.bumbu_cincane{
+    margin-left: 95px;
+}
+
+.heading2Bumbu h2{
+    font-weight: 550;
+    font-size: 30px;
+    margin-left: 164px;
+    margin-top: 5px;
+}
+
+.heading2Bumbu p{
+    font-weight: 520;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 140px;
+}
+
+.heading2Bumbu button {
+    color: orange;
+    margin-left: 160px;
+    font-size: 25px;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 14px;
+  }
+  
+.heading2Bumbu button:hover {
+    background: #ff9800;
+    color: white;
+  }
+
+  /* HEADING 3 */
+
+    .bumbu_taliwang{
+    margin-left: 155px;
+}
+
+  .heading3Bumbu h2{
+    font-weight: 550;
+    font-size: 30px;
+    margin-left: 215px;
+    margin-top: 5px;
+}
+
+.heading3Bumbu p{
+    font-weight: 520;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 185px;
+}
+
+.heading3Bumbu button {
+    color: orange;
+    margin-left: 205px;
+    font-size: 25px;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 14px;
+  }
+  
+.heading3Bumbu button:hover {
+    background: #ff9800;
+    color: white;
+  }
+
+  /* HEADING 4 */
+  .bumbu_cakalang{
+    margin-left: 325px;
+}
+
+  .heading4Bumbu h2{
+    font-weight: 550;
+    font-size: 30px;
+    margin-left: 390px;
+    margin-top: 5px;
+}
+
+.heading4Bumbu p{
+    font-weight: 520;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 120px;
+    margin-left: 196px;
+}
+
+.heading4Bumbu button {
+    color: orange;
+    margin-left: 386px;
+    font-size: 25px;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 14px;
+  }
+  
+.heading4Bumbu button:hover {
+    background: #ff9800;
+    color: white;
+  }
